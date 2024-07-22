@@ -8,6 +8,20 @@ In particular, we share:
 - The embeddings of the problems on the Pegasus topology, of D-Wave Advantage6.4;
 - The optimal assignments of all small instances, hence their solutions (except for those of Number Partitioning instances, which require too much memory to be shared on GitHub);
 
+# Installation
+
+We suggest you create an environment for this project using virtualenv (or another tool like conda).
+First checkout this repository, then enter the repository folder and run this commands to create and activate a new environment, if you are using conda you can create the environment with all the relevant dependencies in the following way:
+```console
+conda env create -f environment.yml
+```
+
+Then, run the following command to install additional packages:
+```console
+conda activate QAMetaLearning
+pip install dwave-ocean-sdk==6.2.0
+```
+
 # How to access the data
 ## Step 0: unzip the files
 Go to the ```data``` folder.
