@@ -1,4 +1,4 @@
-# QA-MetaLearning-private
+# QA-MetaLearning
 
 This repository contains the datasets we used in the work: 
 "Analyzing the Effectiveness of Quantum Annealing with Meta-Learning".
@@ -7,6 +7,26 @@ In particular, we share:
 - The dataset of the features used to train the meta-models (Meta-Learning dataset);
 - The embeddings of the problems on the Pegasus topology, of D-Wave Advantage6.4;
 - The optimal assignments of all small instances, hence their solutions (except for those of Number Partitioning instances, which require too much memory to be shared on GitHub);
+
+If you wish to cite our work, please use the following BibTex format:
+```
+@article{Pellini2024,
+author={Pellini, Riccardo
+and {Ferrari Dacrema}, Maurizio},
+title={Analyzing the effectiveness of quantum annealing with meta-learning},
+journal={Quantum Machine Intelligence},
+year={2024},
+month={Jul},
+day={25},
+volume={6},
+number={2},
+pages={48},
+issn={2524-4914},
+doi={10.1007/s42484-024-00179-8},
+url={https://doi.org/10.1007/s42484-024-00179-8}
+}
+```
+
 
 # Installation
 
